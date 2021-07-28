@@ -31,6 +31,15 @@ $ sudo umount /dev/sde
 eg.
 sudo mlabel -i /dev/sde -s ::"shiv302"
 
+
+rename external HDD -->
+
+for exFAT:
+  sudo exfatlabel /dev/sdxN my_label
+
+ref:
+https://askubuntu.com/questions/276911/how-to-rename-partitions
+
 -----------------------------------
 
 ----------------------------------------------------------------
