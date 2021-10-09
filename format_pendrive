@@ -40,6 +40,8 @@ rename external HDD -->
 
 for exFAT:
   sudo exfatlabel /dev/sdxN my_label
+  
+  note-> Replace /dev/sdxN with your partition (e.g. /dev/sdc1).
 
 ref:
 https://askubuntu.com/questions/276911/how-to-rename-partitions
