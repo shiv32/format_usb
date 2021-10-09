@@ -30,8 +30,12 @@ $ sudo umount /dev/sde
 
 eg.
 sudo mlabel -i /dev/sde -s ::"shiv302"
+------------------------------------------------------------------------------
+locate/print block device attributes -->
 
-
+$ sudo blkid /dev/sdc2
+/dev/sdc2: LABEL="xyz" UUID="XYZ" TYPE="exfat" PARTUUID="XYZ"
+------------------------------------------------------------------------------
 rename external HDD -->
 
 for exFAT:
